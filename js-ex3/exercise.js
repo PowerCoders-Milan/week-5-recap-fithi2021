@@ -7,6 +7,10 @@ formula(5) //=> 6
 formula() //=> 2
 
 // review all the possible parameters
-function formula(){
-
+function formula(n1 = 1, n2 = 1  ,n3 = 1){
+    var res = n1 * n2 + n3;
+    console.log(res); 
+   
 }
+
+
